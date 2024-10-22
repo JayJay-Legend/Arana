@@ -1,0 +1,141 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+:root {
+  --primary: #6b7280;
+  --secondary: #9ca3af;
+  --background: #1f2937;
+  --text: #f3f4f6;
+  --card-bg: #374151;
+}
+
+.dark-default {
+  --primary: #6b7280;
+  --secondary: #9ca3af;
+  --background: #1f2937;
+  --text: #f3f4f6;
+  --card-bg: #374151;
+}
+
+.light-default {
+  --primary: #9ca3af;
+  --secondary: #d1d5db;
+  --background: #f3f4f6;
+  --text: #1f2937;
+  --card-bg: #e5e7eb;
+}
+
+.dark-blue {
+  --primary: #3b82f6;
+  --secondary: #60a5fa;
+  --background: #1e3a8a;
+  --text: #eff6ff;
+  --card-bg: #1d4ed8;
+}
+
+.light-blue {
+  --primary: #60a5fa;
+  --secondary: #93c5fd;
+  --background: #eff6ff;
+  --text: #1e3a8a;
+  --card-bg: #dbeafe;
+}
+
+.dark-orange {
+  --primary: #f97316;
+  --secondary: #fb923c;
+  --background: #7c2d12;
+  --text: #fff7ed;
+  --card-bg: #c2410c;
+}
+
+.light-orange {
+  --primary: #fb923c;
+  --secondary: #fdba74;
+  --background: #fff7ed;
+  --text: #7c2d12;
+  --card-bg: #fed7aa;
+}
+
+.dark-purple {
+  --primary: #8b5cf6;
+  --secondary: #a78bfa;
+  --background: #4c1d95;
+  --text: #f5f3ff;
+  --card-bg: #6d28d9;
+}
+
+.light-purple {
+  --primary: #a78bfa;
+  --secondary: #c4b5fd;
+  --background: #f5f3ff;
+  --text: #4c1d95;
+  --card-bg: #ddd6fe;
+}
+
+.dark-grey {
+  --primary: #6b7280;
+  --secondary: #9ca3af;
+  --background: #1f2937;
+  --text: #f3f4f6;
+  --card-bg: #374151;
+}
+
+.light-grey {
+  --primary: #9ca3af;
+  --secondary: #d1d5db;
+  --background: #f3f4f6;
+  --text: #1f2937;
+  --card-bg: #e5e7eb;
+}
+
+.dark-green {
+  --primary: #10b981;
+  --secondary: #34d399;
+  --background: #064e3b;
+  --text: #ecfdf5;
+  --card-bg: #065f46;
+}
+
+.light-green {
+  --primary: #34d399;
+  --secondary: #6ee7b7;
+  --background: #ecfdf5;
+  --text: #064e3b;
+  --card-bg: #d1fae5;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--text);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.bg-primary {
+  background-color: var(--primary);
+}
+
+.bg-secondary {
+  background-color: var(--secondary);
+}
+
+.text-primary {
+  color: var(--primary);
+}
+
+.text-secondary {
+  color: var(--secondary);
+}
+
+.bg-card {
+  background-color: var(--card-bg);
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Additional styles */
