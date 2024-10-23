@@ -106,6 +106,23 @@
   --card-bg: #d1fae5;
 }
 
+.dark-red {
+  --primary: #dc2626;
+  --secondary: #ef4444;
+  --background: #7f1d1d;
+  --text: #fee2e2;
+  --card-bg: #b91c1c;
+}
+
+.light-red {
+  --primary: #ef4444;
+  --secondary: #f87171;
+  --background: #fee2e2;
+  --text: #7f1d1d;
+  --card-bg: #fecaca;
+}
+
+
 body {
   background-color: var(--background);
   color: var(--text);
