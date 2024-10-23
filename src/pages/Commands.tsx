@@ -30,7 +30,7 @@ const Commands: React.FC = () => {
     { name: '/beat-this', description: t('beatthisDesc'), category: 'fun' },
     { name: '/marbles', description: t('marblesDesc'), category: 'fun' },
     { name: '/wpm', description: t('wpmDesc'), category: 'fun' },
-    { name: '/gay', description: t('mgayDesc'), category: 'fun' },
+    { name: '/gay', description: t('gayDesc'), category: 'fun' },
     { name: '/memory', description: t('memoryDesc'), category: 'fun' },
     { name: '/ranking', description: t('rankingDesc'), category: 'fun' },
     { name: '/ratewaifu', description: t('ratewaifuDesc'), category: 'fun' },
