@@ -1,5 +1,7 @@
 [build]
-  publish = "dist" # ou o diretório onde seus arquivos finais são gerados
+  command = "npm run build"
+  publish = "dist"
+  base = "/"
 
 [[redirects]]
   from = "/*"
