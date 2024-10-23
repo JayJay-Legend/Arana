@@ -105,7 +105,7 @@ const Header: React.FC = () => {
                     {theme.startsWith('dark') ? <Sun size={16} /> : <Moon size={16} />}
                   </motion.button>
                   <hr className="my-2 border-text opacity-20" />
-                  {['default', 'blue', 'orange', 'purple', 'grey', 'green'].map((themeOption) => (
+                  {['default', 'blue', 'orange', 'purple', 'green', 'red'].map((themeOption) => (
                     <motion.button
                       key={themeOption}
                       onClick={() => changeTheme(themeOption)}
