@@ -16,8 +16,8 @@ import './i18n';
 const App: React.FC = () => {
   const { i18n } = useTranslation();
   const [isLoading, setIsLoading] = useState(true);
-  const [serverCount, setServerCount] = useState<string>("499+");
-  const [memberCount, setMemberCount] = useState<string>("150.000+");
+  const [serverCount, setServerCount] = useState<string>("515+");
+  const [memberCount, setMemberCount] = useState<string>("156.000+");
   const { theme } = useTheme();
 
   useEffect(() => {
