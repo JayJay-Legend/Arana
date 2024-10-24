@@ -16,14 +16,14 @@ import './i18n';
 const App: React.FC = () => {
   const { i18n } = useTranslation();
   const [isLoading, setIsLoading] = useState(true);
-  const [serverCount, setServerCount] = useState<string>("515+");
-  const [memberCount, setMemberCount] = useState<string>("156.000+");
+  const [serverCount, setServerCount] = useState<string>("520+");
+  const [memberCount, setMemberCount] = useState<string>("157.000+");
   const { theme } = useTheme();
 
   useEffect(() => {
     const handleLanguageChange = () => {
       setIsLoading(true);
-      setTimeout(() => setIsLoading(false), 600);
+      setTimeout(() => setIsLoading(false), 300);
     };
 
     i18n.on('languageChanged', handleLanguageChange);
@@ -35,12 +35,12 @@ const App: React.FC = () => {
 
   useEffect(() => {
     setIsLoading(true);
-    setTimeout(() => setIsLoading(false), 1000);
+    setTimeout(() => setIsLoading(false), 700);
   }, [theme]);
 
   useEffect(() => {
     setIsLoading(true);
-    setTimeout(() => setIsLoading(false), 2000); // Initial loading
+    setTimeout(() => setIsLoading(false), 1500); // Initial loading
   }, []);
 
   return (
