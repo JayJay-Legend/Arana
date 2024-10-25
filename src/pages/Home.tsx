@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import { useTranslation } from 'react-i18next';
 import { motion } from 'framer-motion';
 
@@ -16,28 +16,6 @@ const Home: React.FC<HomeProps> = ({ serverCount, memberCount }) => {
     }
     return value;
   };
-
-  useEffect(() => {
-    // Criação do script do WidgetBot
-    const script = document.createElement('script');
-    script.src = 'https://cdn.jsdelivr.net/npm/@widgetbot/crate@3';
-    script.async = true;
-    script.defer = true;
-    script.onload = () => {
-      // Inicializa o Crate depois que o script é carregado
-      new window.Crate({
-        server: '721005357672956007', // Arana's Café
-        channel: '758770102438330369', // #📜「regras」
-      });
-    };
-    
-    document.body.appendChild(script);
-
-    // Limpeza para remover o script quando o componente for desmontado
-    return () => {
-      document.body.removeChild(script);
-    };
-  }, []);
 
   return (
     <div className="text-center">
