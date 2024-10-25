@@ -79,7 +79,13 @@ const Home: React.FC<HomeProps> = ({ serverCount, memberCount }) => {
         animate={{ opacity: 1 }}
         transition={{ delay: 0.8, duration: 0.5 }}
       >
-        <h2 className="text-2xl font-bold mb-4">{t('supportServer')}</h2>
+        <h2 className="text-2xl font-bold mb-4">{t('supportServer')}</h2> 
+<script src='https://cdn.jsdelivr.net/npm/@widgetbot/crate@3' async defer>
+	new Crate({
+		server: '721005357672956007', // Arana's Café
+		channel: '758770102438330369' // #📜「regras」
+	})
+</script>
         <div className="discord-widget">
           <iframe
             src="https://discord.com/widget?id=721005357672956007&theme=dark"
