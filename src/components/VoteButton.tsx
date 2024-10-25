@@ -11,7 +11,7 @@ const VoteButton: React.FC = () => {
       href="https://top.gg/bot/1071825122467524688"
       target="_blank"
       rel="noopener noreferrer"
-      className="fixed bottom-4 right-18 bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded-full shadow-lg flex items-center space-x-2"
+      className="fixed bottom-4 right-10 bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded-full shadow-lg flex items-center space-x-2"
       whileHover={{ scale: 1.05 }}
       whileTap={{ scale: 0.95 }}
       initial={{ opacity: 0, y: 50 }}
